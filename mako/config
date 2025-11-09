@@ -1,0 +1,15 @@
+# Mako configuration file
+# For more options, see `man mako`
+
+# Appearance
+font=monospace 10
+border-radius=10
+border-size=2
+
+# Colors
+background-color=#1b1016
+text-color=#f3dde6
+border-color=#cdbdff
+
+# Behavior
+default-timeout=5000

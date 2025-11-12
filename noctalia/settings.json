@@ -1,359 +1,354 @@
 {
-    "appLauncher": {
-        "backgroundOpacity": 1,
-        "customLaunchPrefix": "",
-        "customLaunchPrefixEnabled": false,
-        "enableClipboardHistory": false,
-        "pinnedExecs": [
-        ],
-        "position": "center",
-        "sortByMostUsed": true,
-        "terminalCommand": "xterm -e",
-        "useApp2Unit": false
-    },
-    "audio": {
-        "cavaFrameRate": 60,
-        "mprisBlacklist": [
-        ],
-        "preferredPlayer": "",
-        "visualizerType": "linear",
-        "volumeOverdrive": false,
-        "volumeStep": 5
-    },
-    "bar": {
-        "backgroundOpacity": 0,
-        "density": "compact",
-        "exclusive": true,
-        "floating": true,
-        "marginHorizontal": 0,
-        "marginVertical": 0.25,
-        "monitors": [
-        ],
-        "outerCorners": true,
-        "position": "top",
-        "showCapsule": true,
-        "widgets": {
-            "center": [
-                {
-                    "characterCount": 2,
-                    "hideUnoccupied": false,
-                    "id": "Workspace",
-                    "labelMode": "index"
-                },
-                {
-                    "colorName": "primary",
-                    "hideWhenIdle": true,
-                    "id": "AudioVisualizer",
-                    "width": 200
-                }
-            ],
-            "left": [
-                {
-                    "id": "SystemMonitor",
-                    "showCpuTemp": true,
-                    "showCpuUsage": true,
-                    "showDiskUsage": true,
-                    "showMemoryAsPercent": true,
-                    "showMemoryUsage": true,
-                    "showNetworkStats": true,
-                    "usePrimaryColor": true
-                },
-                {
-                    "colorizeIcons": false,
-                    "hideMode": "hidden",
-                    "id": "ActiveWindow",
-                    "maxWidth": 145,
-                    "scrollingMode": "hover",
-                    "showIcon": false,
-                    "useFixedWidth": false
-                },
-                {
-                    "hideMode": "hidden",
-                    "hideWhenIdle": false,
-                    "id": "MediaMini",
-                    "maxWidth": 145,
-                    "scrollingMode": "hover",
-                    "showAlbumArt": false,
-                    "showVisualizer": false,
-                    "useFixedWidth": false,
-                    "visualizerType": "linear"
-                }
-            ],
-            "right": [
-                {
-                    "displayMode": "forceOpen",
-                    "id": "KeyboardLayout"
-                },
-                {
-                    "displayMode": "onhover",
-                    "id": "Bluetooth"
-                },
-                {
-                    "id": "ScreenRecorder"
-                },
-                {
-                    "id": "WallpaperSelector"
-                },
-                {
-                    "blacklist": [
-                    ],
-                    "colorizeIcons": false,
-                    "drawerEnabled": true,
-                    "favorites": [
-                        "steam",
-                        "Vesktop"
-                    ],
-                    "id": "Tray"
-                },
-                {
-                    "displayMode": "onhover",
-                    "id": "Volume"
-                },
-                {
-                    "id": "DarkMode"
-                },
-                {
-                    "customFont": "",
-                    "formatHorizontal": "HH:mm ddd, MMM dd",
-                    "formatVertical": "HH mm - dd MM",
-                    "id": "Clock",
-                    "useCustomFont": false,
-                    "usePrimaryColor": true
-                },
-                {
-                    "customIconPath": "",
-                    "icon": "",
-                    "id": "ControlCenter",
-                    "useDistroLogo": false
-                }
-            ]
+  "appLauncher": {
+    "backgroundOpacity": 1,
+    "customLaunchPrefix": "",
+    "customLaunchPrefixEnabled": false,
+    "enableClipboardHistory": false,
+    "pinnedExecs": [],
+    "position": "center",
+    "sortByMostUsed": true,
+    "terminalCommand": "xterm -e",
+    "useApp2Unit": false
+  },
+  "audio": {
+    "cavaFrameRate": 60,
+    "mprisBlacklist": [],
+    "preferredPlayer": "",
+    "visualizerQuality": "high",
+    "visualizerType": "mirrored",
+    "volumeOverdrive": false,
+    "volumeStep": 5
+  },
+  "bar": {
+    "backgroundOpacity": 0,
+    "density": "compact",
+    "exclusive": true,
+    "floating": true,
+    "marginHorizontal": 0,
+    "marginVertical": 0.25,
+    "monitors": [],
+    "outerCorners": true,
+    "position": "top",
+    "showCapsule": true,
+    "widgets": {
+      "center": [
+        {
+          "characterCount": 2,
+          "hideUnoccupied": false,
+          "id": "Workspace",
+          "labelMode": "index"
+        },
+        {
+          "colorName": "primary",
+          "hideWhenIdle": false,
+          "id": "AudioVisualizer",
+          "width": 200
         }
-    },
-    "battery": {
-        "chargingMode": 0
-    },
-    "brightness": {
-        "brightnessStep": 5,
-        "enableDdcSupport": false,
-        "enforceMinimum": true
-    },
-    "colorSchemes": {
-        "darkMode": true,
-        "generateTemplatesForPredefined": true,
-        "manualSunrise": "06:30",
-        "manualSunset": "18:30",
-        "matugenSchemeType": "scheme-fruit-salad",
-        "predefinedScheme": "Tokyo Night",
-        "schedulingMode": "off",
-        "useWallpaperColors": true
-    },
-    "controlCenter": {
-        "cards": [
-            {
-                "enabled": true,
-                "id": "profile-card"
-            },
-            {
-                "enabled": true,
-                "id": "shortcuts-card"
-            },
-            {
-                "enabled": true,
-                "id": "audio-card"
-            },
-            {
-                "enabled": true,
-                "id": "weather-card"
-            },
-            {
-                "enabled": true,
-                "id": "media-sysmon-card"
-            }
-        ],
-        "position": "close_to_bar_button",
-        "shortcuts": {
-            "left": [
-                {
-                    "id": "WiFi"
-                },
-                {
-                    "id": "Bluetooth"
-                },
-                {
-                    "id": "ScreenRecorder"
-                },
-                {
-                    "id": "WallpaperSelector"
-                }
-            ],
-            "right": [
-                {
-                    "id": "Notifications"
-                },
-                {
-                    "id": "PowerProfile"
-                },
-                {
-                    "id": "KeepAwake"
-                },
-                {
-                    "id": "NightLight"
-                }
-            ]
+      ],
+      "left": [
+        {
+          "id": "SystemMonitor",
+          "showCpuTemp": true,
+          "showCpuUsage": true,
+          "showDiskUsage": true,
+          "showMemoryAsPercent": true,
+          "showMemoryUsage": true,
+          "showNetworkStats": true,
+          "usePrimaryColor": true
+        },
+        {
+          "colorizeIcons": false,
+          "hideMode": "hidden",
+          "id": "ActiveWindow",
+          "maxWidth": 145,
+          "scrollingMode": "hover",
+          "showIcon": false,
+          "useFixedWidth": false
+        },
+        {
+          "hideMode": "hidden",
+          "hideWhenIdle": false,
+          "id": "MediaMini",
+          "maxWidth": 145,
+          "scrollingMode": "hover",
+          "showAlbumArt": false,
+          "showVisualizer": false,
+          "useFixedWidth": false,
+          "visualizerType": "linear"
         }
-    },
-    "dock": {
-        "backgroundOpacity": 1,
-        "colorizeIcons": false,
-        "displayMode": "auto_hide",
-        "enabled": false,
-        "floatingRatio": 1,
-        "monitors": [
-        ],
-        "onlySameOutput": true,
-        "pinnedApps": [
-        ],
-        "size": 0.39
-    },
-    "general": {
-        "animationDisabled": false,
-        "animationSpeed": 1,
-        "avatarImage": "/home/rhea/.face",
-        "compactLockScreen": false,
-        "dimDesktop": false,
-        "enableShadows": true,
-        "forceBlackScreenCorners": false,
-        "language": "",
-        "lockOnSuspend": true,
-        "radiusRatio": 1,
-        "scaleRatio": 0.9500000000000001,
-        "screenRadiusRatio": 1,
-        "shadowDirection": "bottom_right",
-        "shadowOffsetX": 2,
-        "shadowOffsetY": 3,
-        "showScreenCorners": false
-    },
-    "hooks": {
-        "darkModeChange": "",
-        "enabled": true,
-        "wallpaperChange": "/home/rhea/.config/hypr/update-hypr-colors.sh"
-    },
-    "location": {
-        "analogClockInCalendar": false,
-        "firstDayOfWeek": -1,
-        "name": "Penteli",
-        "showCalendarEvents": true,
-        "showCalendarWeather": true,
-        "showWeekNumberInCalendar": false,
-        "use12hourFormat": false,
-        "useFahrenheit": false,
-        "weatherEnabled": true
-    },
-    "network": {
-        "wifiEnabled": true
-    },
-    "nightLight": {
-        "autoSchedule": true,
-        "dayTemp": "6500",
-        "enabled": false,
-        "forced": false,
-        "manualSunrise": "06:30",
-        "manualSunset": "18:30",
-        "nightTemp": "4000"
-    },
-    "notifications": {
-        "backgroundOpacity": 1,
-        "criticalUrgencyDuration": 15,
-        "doNotDisturb": false,
-        "enabled": true,
-        "location": "top_right",
-        "lowUrgencyDuration": 3,
-        "monitors": [
-        ],
-        "normalUrgencyDuration": 8,
-        "overlayLayer": true,
-        "respectExpireTimeout": false
-    },
-    "osd": {
-        "autoHideMs": 2000,
-        "enabled": true,
-        "location": "top_right",
-        "monitors": [
-        ],
-        "overlayLayer": true
-    },
-    "screenRecorder": {
-        "audioCodec": "opus",
-        "audioSource": "default_output",
-        "colorRange": "limited",
-        "directory": "/home/rhea/Videos",
-        "frameRate": 60,
-        "quality": "very_high",
-        "showCursor": true,
-        "videoCodec": "h264",
-        "videoSource": "portal"
-    },
-    "settingsVersion": 20,
-    "setupCompleted": true,
-    "templates": {
-        "alacritty": false,
-        "code": false,
-        "discord": false,
-        "discord_armcord": false,
-        "discord_dorion": false,
-        "discord_equibop": false,
-        "discord_lightcord": false,
-        "discord_vesktop": true,
-        "discord_webcord": false,
-        "enableUserTemplates": false,
-        "foot": false,
-        "fuzzel": false,
-        "ghostty": false,
-        "gtk": false,
-        "kcolorscheme": false,
-        "kitty": false,
-        "pywalfox": false,
-        "qt": false,
-        "vicinae": false,
-        "walker": false,
-        "wezterm": false
-    },
-    "ui": {
-        "fontDefault": "Monospace",
-        "fontDefaultScale": 1,
-        "fontFixed": "DejaVu Sans Mono",
-        "fontFixedScale": 1,
-        "panelsAttachedToBar": true,
-        "settingsPanelAttachToBar": false,
-        "tooltipsEnabled": true
-    },
-    "wallpaper": {
-        "defaultWallpaper": "/etc/xdg/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
-        "directory": "/home/rhea/Pictures/Wallpapers",
-        "enableMultiMonitorDirectories": false,
-        "enabled": true,
-        "fillColor": "#000000",
-        "fillMode": "crop",
-        "monitors": [
-            {
-                "directory": "/home/rhea/Pictures/Wallpapers",
-                "name": "HDMI-A-1",
-                "wallpaper": "/home/rhea/Pictures/Wallpapers/wallhaven-v9z6rl.png"
-            },
-            {
-                "directory": "/home/rhea/Pictures/Wallpapers",
-                "name": "DP-3",
-                "wallpaper": "/home/rhea/Pictures/Wallpapers/wallhaven-v9z6rl.png"
-            }
-        ],
-        "overviewEnabled": false,
-        "panelPosition": "follow_bar",
-        "randomEnabled": true,
-        "randomIntervalSec": 3600,
-        "recursiveSearch": false,
-        "setWallpaperOnAllMonitors": true,
-        "transitionDuration": 1500,
-        "transitionEdgeSmoothness": 0.05,
-        "transitionType": "random"
+      ],
+      "right": [
+        {
+          "displayMode": "forceOpen",
+          "id": "KeyboardLayout"
+        },
+        {
+          "displayMode": "onhover",
+          "id": "Bluetooth"
+        },
+        {
+          "id": "ScreenRecorder"
+        },
+        {
+          "id": "WallpaperSelector"
+        },
+        {
+          "blacklist": [],
+          "colorizeIcons": false,
+          "drawerEnabled": true,
+          "favorites": [
+            "steam",
+            "Vesktop",
+            "whatsdesk1"
+          ],
+          "id": "Tray"
+        },
+        {
+          "displayMode": "onhover",
+          "id": "Volume"
+        },
+        {
+          "id": "DarkMode"
+        },
+        {
+          "customFont": "",
+          "formatHorizontal": "HH:mm ddd, MMM dd",
+          "formatVertical": "HH mm - dd MM",
+          "id": "Clock",
+          "useCustomFont": false,
+          "usePrimaryColor": true
+        },
+        {
+          "colorizeDistroLogo": false,
+          "customIconPath": "",
+          "icon": "",
+          "id": "ControlCenter",
+          "useDistroLogo": false
+        }
+      ]
     }
+  },
+  "battery": {
+    "chargingMode": 0
+  },
+  "brightness": {
+    "brightnessStep": 5,
+    "enableDdcSupport": false,
+    "enforceMinimum": true
+  },
+  "colorSchemes": {
+    "darkMode": true,
+    "generateTemplatesForPredefined": true,
+    "manualSunrise": "06:30",
+    "manualSunset": "18:30",
+    "matugenSchemeType": "scheme-fruit-salad",
+    "predefinedScheme": "Tokyo Night",
+    "schedulingMode": "off",
+    "useWallpaperColors": false
+  },
+  "controlCenter": {
+    "cards": [
+      {
+        "enabled": true,
+        "id": "profile-card"
+      },
+      {
+        "enabled": true,
+        "id": "shortcuts-card"
+      },
+      {
+        "enabled": true,
+        "id": "audio-card"
+      },
+      {
+        "enabled": true,
+        "id": "weather-card"
+      },
+      {
+        "enabled": true,
+        "id": "media-sysmon-card"
+      }
+    ],
+    "position": "close_to_bar_button",
+    "shortcuts": {
+      "left": [
+        {
+          "id": "WiFi"
+        },
+        {
+          "id": "Bluetooth"
+        },
+        {
+          "id": "ScreenRecorder"
+        },
+        {
+          "id": "WallpaperSelector"
+        }
+      ],
+      "right": [
+        {
+          "id": "Notifications"
+        },
+        {
+          "id": "PowerProfile"
+        },
+        {
+          "id": "KeepAwake"
+        },
+        {
+          "id": "NightLight"
+        }
+      ]
+    }
+  },
+  "dock": {
+    "backgroundOpacity": 1,
+    "colorizeIcons": false,
+    "displayMode": "auto_hide",
+    "enabled": false,
+    "floatingRatio": 1,
+    "monitors": [],
+    "onlySameOutput": true,
+    "pinnedApps": [],
+    "size": 0.39
+  },
+  "general": {
+    "animationDisabled": false,
+    "animationSpeed": 1,
+    "avatarImage": "/home/rhea/.face",
+    "compactLockScreen": false,
+    "dimDesktop": false,
+    "enableShadows": true,
+    "forceBlackScreenCorners": false,
+    "language": "",
+    "lockOnSuspend": true,
+    "radiusRatio": 1,
+    "scaleRatio": 0.9500000000000001,
+    "screenRadiusRatio": 1,
+    "shadowDirection": "bottom_right",
+    "shadowOffsetX": 2,
+    "shadowOffsetY": 3,
+    "showScreenCorners": false
+  },
+  "hooks": {
+    "darkModeChange": "",
+    "enabled": true,
+    "wallpaperChange": ""
+  },
+  "location": {
+    "analogClockInCalendar": false,
+    "firstDayOfWeek": -1,
+    "name": "Penteli",
+    "showCalendarEvents": true,
+    "showCalendarWeather": true,
+    "showWeekNumberInCalendar": false,
+    "use12hourFormat": false,
+    "useFahrenheit": false,
+    "weatherEnabled": true
+  },
+  "network": {
+    "wifiEnabled": true
+  },
+  "nightLight": {
+    "autoSchedule": true,
+    "dayTemp": "6500",
+    "enabled": false,
+    "forced": false,
+    "manualSunrise": "06:30",
+    "manualSunset": "18:30",
+    "nightTemp": "4000"
+  },
+  "notifications": {
+    "backgroundOpacity": 1,
+    "criticalUrgencyDuration": 15,
+    "enabled": true,
+    "location": "top_right",
+    "lowUrgencyDuration": 3,
+    "monitors": [],
+    "normalUrgencyDuration": 8,
+    "overlayLayer": true,
+    "respectExpireTimeout": false
+  },
+  "osd": {
+    "autoHideMs": 2000,
+    "enabled": true,
+    "location": "top_right",
+    "monitors": [],
+    "overlayLayer": true
+  },
+  "screenRecorder": {
+    "audioCodec": "opus",
+    "audioSource": "default_output",
+    "colorRange": "limited",
+    "directory": "/home/rhea/Videos",
+    "frameRate": 60,
+    "quality": "very_high",
+    "showCursor": true,
+    "videoCodec": "h264",
+    "videoSource": "portal"
+  },
+  "settingsVersion": 21,
+  "setupCompleted": true,
+  "templates": {
+    "alacritty": false,
+    "code": false,
+    "discord": true,
+    "discord_armcord": false,
+    "discord_dorion": false,
+    "discord_equibop": false,
+    "discord_lightcord": false,
+    "discord_vesktop": true,
+    "discord_webcord": false,
+    "enableUserTemplates": false,
+    "foot": false,
+    "fuzzel": false,
+    "ghostty": false,
+    "gtk": false,
+    "kcolorscheme": false,
+    "kitty": false,
+    "pywalfox": false,
+    "qt": false,
+    "spicetify": false,
+    "vicinae": false,
+    "walker": false,
+    "wezterm": false
+  },
+  "ui": {
+    "fontDefault": "Monospace",
+    "fontDefaultScale": 1,
+    "fontFixed": "DejaVu Sans Mono",
+    "fontFixedScale": 1,
+    "panelsAttachedToBar": true,
+    "settingsPanelAttachToBar": false,
+    "tooltipsEnabled": true
+  },
+  "wallpaper": {
+    "defaultWallpaper": "/etc/xdg/quickshell/noctalia-shell/Assets/Wallpaper/noctalia.png",
+    "directory": "/home/rhea/Pictures/Wallpapers",
+    "enableMultiMonitorDirectories": false,
+    "enabled": false,
+    "fillColor": "#000000",
+    "fillMode": "crop",
+    "monitors": [
+      {
+        "directory": "/home/rhea/Pictures/Wallpapers",
+        "name": "HDMI-A-1",
+        "wallpaper": "/home/rhea/Pictures/Wallpapers/wallhaven-zy1yoo.jpg"
+      },
+      {
+        "directory": "/home/rhea/Pictures/Wallpapers",
+        "name": "DP-3",
+        "wallpaper": "/home/rhea/Pictures/Wallpapers/wallhaven-zy1yoo.jpg"
+      }
+    ],
+    "overviewEnabled": false,
+    "panelPosition": "follow_bar",
+    "randomEnabled": true,
+    "randomIntervalSec": 3600,
+    "recursiveSearch": false,
+    "setWallpaperOnAllMonitors": true,
+    "transitionDuration": 1500,
+    "transitionEdgeSmoothness": 0.05,
+    "transitionType": "random"
+  }
 }

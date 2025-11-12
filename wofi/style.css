@@ -1,51 +1,37 @@
 window {
     margin: 0px;
-    border: 1px solid rgba(205, 189, 255, 0.8);
-    background-color: rgba(27, 16, 22, 0.8);
+    border: 1px solid rgba(77, 218, 216, 0.8);
+    background-color: rgba(12, 20, 27, 0.8);
 }
-
 #input {
     margin: 5px;
     border: none;
-    color: #f3dde6;
-    background-color: rgba(40, 28, 34, 0.8);
+    color: #dbe3ed;
+    background-color: rgba(7, 22, 37, 0.8);
 }
-
-#inner-box {
+#inner-box, #outer-box {
     margin: 5px;
     border: none;
-    background-color: rgba(27, 16, 22, 0.8);
+    background-color: rgba(12, 20, 27, 0.8);
 }
-
-#outer-box {
-    margin: 5px;
-    border: none;
-    background-color: rgba(27, 16, 22, 0.8);
-}
-
 #scroll {
     margin: 0px;
     border: none;
 }
-
 #text {
     margin: 5px;
     border: none;
-    color: #f3dde6;
-} 
-
+    color: #dbe3ed;
+}
 #entry.activatable #text {
-    color: #34275e;
+    color: #003736;
 }
-
 #entry > * {
-    color: #f3dde6;
+    color: #dbe3ed;
 }
-
 #entry:selected {
-    background-color: rgba(205, 189, 255, 0.8);
+    background-color: rgba(128, 213, 211, 0.8);
 }
-
 #entry:selected #text {
     font-weight: bold;
 }
